@@ -22,3 +22,24 @@ ul.blist{
 ul.clist{
     list-style-type: upper-alpha;
 }
+#customers{
+/* border-collapse: collapse; */
+width: 100%;
+text-align: center;
+vertical-align: top;
+}
+/* tr,td,th{
+    border: 2px solid black; */
+}
+tr:hover{
+    background-color: burlywood;
+}
+/* #customers tr:nth-child(even){background-color: #f2f2f2;} */
+#customers tr:nth-child(6){background-color: gray;}
+tr{
+    height: 50px;
+    vertical-align: top;
+}
+.tab{
+    overflow-x: auto;
+}
