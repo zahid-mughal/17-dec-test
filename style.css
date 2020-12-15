@@ -47,6 +47,9 @@ border-style: dashed dotted solid double; */
     width: 100px;
     height: 50px;
     margin-left:40px  ;
+    border: 2px solid black;
+    outline: 3px solid black;
+    outline-offset: 6px;
     /* box-sizing: border-box; */
     /* padding: 40px; */
 }
@@ -57,4 +60,15 @@ border-style: dashed dotted solid double; */
     margin: inherit ;
     padding: 40px;
     box-sizing: border-box;
+}
+.in-cont2{ 
+    background-color: rgb(20, 20, 13);
+    width: 1000px;
+    height: 400px;
+    /* margin: auto ; */
+    /* text-align: left; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
