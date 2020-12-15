@@ -13,7 +13,13 @@ body{
 }  */
 .cont{ 
     background-color: yellow;
-    width: 500px;
+    max-width: 1000px;
+    height: 100px;
+    margin: auto ;
+}
+.cont1{ 
+    background-color: yellow;
+    width: 1000px;
     height: 100px;
     margin: auto ;
 }
@@ -41,10 +47,14 @@ border-style: dashed dotted solid double; */
     width: 100px;
     height: 50px;
     margin-left:40px  ;
+    /* box-sizing: border-box; */
+    /* padding: 40px; */
 }
 .in{
     background-color: rgb(189, 73, 111);
     width: 50px;
     height: 25px;
     margin: inherit ;
+    padding: 40px;
+    box-sizing: border-box;
 }
