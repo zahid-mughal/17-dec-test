@@ -1,45 +1,28 @@
-/* .anchor{
-    color: black;
-    width: 100px;
-    font-size: 50px;
+
+.main{
+    width: 300px;
+    height: 100px;
+    border: solid;
+    /* float: left; */
+    /* display: flex;
+    justify-content: space-between; */
 }
-.anchor:visited{
-    color: green;
+.main-1{
+    width: 30px;
+    height: 10px;
+    border: solid;
+    float: left;
 }
-.anchor:hover{
-    color: red;
+.main-2{
+    width: 30px;
+    height: 10px;
+    border: solid;
+    float: left;
 }
-.anchor:active{
-    color: greenyellow;
+.main-3{
+    width: 30px;
+    height: 10px;
+    border: solid;
+    float: right;
+    clear: left;
 }
-ul.alist{
-    list-style-image: url("sky.jpg ");
-}
-ul.blist{
-    list-style-type:upper-roman ;
-    list-style-position: inside;
-}
-ul.clist{
-    list-style-type: upper-alpha;
-}
-#customers{
-/* border-collapse: collapse; */
-/* width: 100%;
-text-align: center;
-vertical-align: top; */
-/* } */
-/* tr,td,th{
-    border: 2px solid black; */
-/* }
-tr:hover{
-    background-color: burlywood;
-}
-/* #customers tr:nth-child(even){background-color: #f2f2f2;} */
-/* #customers tr:nth-child(6){background-color: gray;}
-tr{
-    height: 50px;
-    vertical-align: top;
-}
-.tab{
-    overflow-x: auto;
-} */ 
