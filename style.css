@@ -1,4 +1,25 @@
+
+body{
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-repeat:repeat-x ; */
+    /* background-repeat:repeat-y ; */
+    background-position: right top;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+    background: pink url("sky.jpg") no-repeat right left ;
+    background-size: cover;
+
+
+}
 p.center{
-    background-color: rgb(12, 201, 138);
+    /* background-color: rgb(12, 201, 138); */
     color: blue;
+    /* border: 1px outset black; */
+/* border-style:  inset; */
+/* border-width: thick; */
+border-width: 5px 10px;
+border-color: black gold greenyellow yellow;
+border-style: dashed dotted solid double;
 }
