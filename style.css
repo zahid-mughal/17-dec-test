@@ -12,3 +12,13 @@
 .anchor:active{
     color: greenyellow;
 }
+ul.alist{
+    list-style-image: url("sky.jpg ");
+}
+ul.blist{
+    list-style-type:upper-roman ;
+    list-style-position: inside;
+}
+ul.clist{
+    list-style-type: upper-alpha;
+}
