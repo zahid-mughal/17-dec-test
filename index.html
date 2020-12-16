@@ -8,14 +8,37 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-<h1 id="para" >this is first paragrapgh</h1>
+<!-- <h1 id="para" >this is first paragrapgh</h1>
 <button type="button" onclick="check1()">chage html</button><br>
 
 <button type="button" onclick="document.getElementById('myimg').src='off.gif'">1st</button>
 <img id="myimg" src="off.gif" style="width: 200px;">
-<button type="button" onclick="document.getElementById('myimg').src='on.gif';document.getElementById('myimg').style.display='block';"> 2nd</button>
+<button type="button" onclick="document.getElementById('myimg').src='on.gif';document.getElementById('myimg').style.display='block'"> 2nd</button> -->
+
+<form id="form1">
+<fieldset>
+<legend>calculator</legend>
+<input type="number" id="1st-num">
+<select id="op">
+    <option value="+">+</option>
+    <option value="+">-</option>
+    <option value="*">x</option>
+    <option value="/">/</option>
+</select>
+<input type="number" id="2nd-num"><br>
+<!-- <button type="button" value="+">+</button>
+<button type="button" value="-">-</button>
+<button type="button" value="*">x</button>
+<button type="button" value="/">/</button><br> -->
+<button type="button" id="cal" onclick="calculate()">Result</button><br>
+<input type="number" id="result">
 
 
+
+
+
+</fieldset>
+</form>
 
 
 
