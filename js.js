@@ -9,10 +9,10 @@
 // }
 
 function check1(){
-document.getElementById("para").innerHTML="thrugh js";
+document.getElementById("para").innerText="thrugh js";
 // h.innerHTML="thrugh js";
-document.getElementById("para").style.color="green";
-document.getElementById("para").style.fontSize="50px";
-document.getElementsByTagName
+// document.getElementById("para").style.color="green";
+// document.getElementById("para").style.fontSize="50px";
+// document.getElementsByTagName
 
 }
