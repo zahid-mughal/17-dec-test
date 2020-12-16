@@ -9,5 +9,6 @@
 // }
 
 function check1(){
-    document.getElementById("para").style.color="green";
+let h =document.getElementById("para");
+h.style.color="green";
 }
