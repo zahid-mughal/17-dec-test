@@ -9,7 +9,7 @@
 // }
 
 function check1(){
-let h =document.getElementById("para");
-h.innerHTML="thrugh js";
-h.style.color="green";
+document.getElementById("para").innerHTML="thrugh js";
+// h.innerHTML="thrugh js";
+document.getElementById("para").style.color="green";
 }
