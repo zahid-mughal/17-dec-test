@@ -10,5 +10,6 @@
 
 function check1(){
 let h =document.getElementById("para");
+h.innerHTML="thrugh js";
 h.style.color="green";
 }
