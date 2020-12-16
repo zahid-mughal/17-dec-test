@@ -9,8 +9,11 @@
 </head>
 <body>
 <h1 id="para" >this is first paragrapgh</h1>
-<button type="button" onclick="check1()">chage html</button>
+<button type="button" onclick="check1()">chage html</button><br>
 
+<button type="button" onclick="document.getElementById('myimg').src='off.gif'">1st</button>
+<img id="myimg" src="off.gif" style="width: 200px;">
+<button type="button" onclick="document.getElementById('myimg').src='on.gif';document.getElementById('myimg').style.display='block';"> 2nd</button>
 
 
 
